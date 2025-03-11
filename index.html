@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BROCHURE</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: normal;
+            color: #aaaaaa;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 80%;
+            height: 80vh;
+            border: none;
+        }
+    </style>
 </head>
-<style>
-    .pdf {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-    }
-    .pdf,
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-   h1,
-    h3 {
-        text-align: center;
-    }
-
-    h1 {
-        color: rgb(0, 0, 0);
-    }
-</style>
-
 <body>
+    <div class="container">
         <h1>BISHOP JEROME INSTITUTE</h1>
-        <h3>BROCHURE OF NCETI-2025</h3>
-        <iframe class="pdf" 
-                src=
-"/asset/CONFERENCE.pdf"
-            width="800" height="500">
-        </iframe>
+        <h2>BROCHURE OF NCETI-2025</h2>
+        <iframe src="/asset/CONFERENCE.pdf" allowfullscreen></iframe>
+    </div>
 </body>
-
 </html>
