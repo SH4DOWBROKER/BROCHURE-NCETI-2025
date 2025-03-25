@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NCETI-2025 BROCHURE</title>
+    <title>BROCHURE OF NCETI-2025</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #070031;
-            color: rgb(156, 221, 247);
+            background-color: #111;
+            color: white;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -16,18 +16,21 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
+            overflow-y: auto; /* Allows scrolling */
+            padding: 20px;
         }
         .brochure {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            gap: 10px;
+            gap: 20px;
             margin-top: 20px;
         }
         .brochure img {
-            width: 45vw;
-            height: 550px;
-            object-fit: fill;
+            width: 80vw;
+            max-width: 500px;
+            height: auto;
+            object-fit: cover;
             border-radius: 8px;
             box-shadow: 0 0 15px cyan;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
